@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Challenge</title>
+    <link th:href="@{/styles/robot/robot.css}" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<h2 th:align="center">Robot Coding Challenge</h2>
+<h1 th:align="center" id="message"></h1>
+<div th:align="center" class="ex">
+    <div>
+        <textarea id="txtCommands" name="commands" rows="10" cols="40" placeholder="Enter Commands"></textarea>
+    </div>
+    <br>
+    <div>
+        <button id="submit">EXECUTE</button>
+    </div>
+    <br>
+    <div>
+        <img id="00" src="/images/white.png" width="100px" height="100px">
+        <img id="01" src="/images/white.png" width="100px" height="100px">
+        <img id="02" src="/images/white.png" width="100px" height="100px">
+        <img id="03" src="/images/white.png" width="100px" height="100px">
+        <img id="04" src="/images/white.png" width="100px" height="100px">
+    </div>
+    <div>
+        <img id="10" src="/images/white.png" width="100px" height="100px">
+        <img id="11" src="/images/white.png" width="100px" height="100px">
+        <img id="12" src="/images/white.png" width="100px" height="100px">
+        <img id="13" src="/images/white.png" width="100px" height="100px">
+        <img id="14" src="/images/white.png" width="100px" height="100px">
+    </div>
+    <div>
+        <img id="20" src="/images/white.png" width="100px" height="100px">
+        <img id="21" src="/images/white.png" width="100px" height="100px">
+        <img id="22" src="/images/white.png" width="100px" height="100px">
+        <img id="23" src="/images/white.png" width="100px" height="100px">
+        <img id="24" src="/images/white.png" width="100px" height="100px">
+    </div>
+    <div>
+        <img id="30" src="/images/white.png" width="100px" height="100px">
+        <img id="31" src="/images/white.png" width="100px" height="100px">
+        <img id="32" src="/images/white.png" width="100px" height="100px">
+        <img id="33" src="/images/white.png" width="100px" height="100px">
+        <img id="34" src="/images/white.png" width="100px" height="100px">
+    </div>
+    <div>
+        <img id="40" src="/images/white.png" width="100px" height="100px">
+        <img id="41" src="/images/white.png" width="100px" height="100px">
+        <img id="42" src="/images/white.png" width="100px" height="100px">
+        <img id="43" src="/images/white.png" width="100px" height="100px">
+        <img id="44" src="/images/white.png" width="100px" height="100px">
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" th:src="@{/js/robot/robot.js}"></script>
